@@ -5,7 +5,6 @@ def my_hash
     "my_age" => 25,
     "favorite_color" => "blue"
   }
-  your_hash
 end
 
 
@@ -18,7 +17,6 @@ def shipping_manifest
     "porcelain vases" => 2,
     "oil paintings" => 3
   }
-  the_manifest
 end
 
 def retrieval
@@ -30,7 +28,6 @@ def retrieval
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
   shipping_manifest["oil paintings"]
-  shipping_manifest
 end
 
 def adding
